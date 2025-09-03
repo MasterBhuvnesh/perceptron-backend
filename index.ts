@@ -37,7 +37,7 @@ const server = serve({
       } else {
         return new Response(
           JSON.stringify({ message: "Content will be coming soon" }),
-          { headers: { "Content-Type": "application/json" }, status: 404 }
+          { headers: { "Content-Type": "application/json" }, }
         );
       }
     }
