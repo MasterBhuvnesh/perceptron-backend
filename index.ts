@@ -3,7 +3,7 @@ import { serve } from "bun";
 import content from "./content.json";
 import data from "./data.json";
 
-serve({
+const server = serve({
   port: 3000,
   fetch(req) {
     const url = new URL(req.url);
@@ -17,6 +17,7 @@ serve({
         }
       );
     }
+
     // /data route
     if (url.pathname === "/data") {
       return new Response(JSON.stringify(data, null, 2), {
@@ -41,9 +42,28 @@ serve({
       }
     }
 
+    // /health route
+    if (url.pathname === "/health") {
+      return new Response(
+        JSON.stringify({ status: "ok", time: new Date().toISOString() }),
+        { headers: { "Content-Type": "application/json" } }
+      );
+    }
+
     // Default response for unknown routes
     return new Response("Route not found", { status: 404 });
   },
 });
 
 console.log("🚀 Server running at http://localhost:3000");
+
+// Periodic GET request to external /health every 14 minutes
+setInterval(async () => {
+  try {
+    const res = await fetch("https://api.gdgrbu.tech/health");
+    const data = await res.json();
+    console.log("[Health Check]", data);
+  } catch (err) {
+    console.error("[Health Check Error]", err);
+  }
+}, 14 * 60 * 1000); // 14 minutes
