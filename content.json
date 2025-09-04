@@ -10,7 +10,9 @@
       "The ultimate goal is to uncover the underlying structure of the data, identify important variables, detect outliers and anomalies, test underlying assumptions for future modeling, and inform the selection of appropriate analytical techniques."
     ],
     "image": "https://i.pinimg.com/1200x/dd/34/f2/dd34f2caf11d4e4f235559eba14bf832.jpg",
-    "summary": "The initial process of analyzing data sets to summarize their main characteristics and uncover underlying patterns, often using visual methods."
+    "summary": "The initial process of analyzing data sets to summarize their main characteristics and uncover underlying patterns, often using visual methods.",
+    "aurthor": "Bhuvnesh Verma",
+    "date": "03 Sept 2024"
   },
   {
     "id": "2",
@@ -24,7 +26,9 @@
       "Extensions such as polynomial regression and interaction terms allow modeling of more complex relationships. In practice, feature selection, scaling, and transformation are important preprocessing steps. Linear regression remains a cornerstone of statistical modeling due to its simplicity, interpretability, and effectiveness in many real-world applications, from economics and biology to engineering and social sciences."
     ],
     "image": "https://i.pinimg.com/1200x/dd/34/f2/dd34f2caf11d4e4f235559eba14bf832.jpg",
-    "summary": "A foundational statistical method for modeling the linear relationship between a dependent variable and one or more independent variables."
+    "summary": "A foundational statistical method for modeling the linear relationship between a dependent variable and one or more independent variables.",
+    "aurthor": "Abhay Mishra",
+    "date": "28 Aug 2024"
   },
   {
     "id": "3",
@@ -37,6 +41,8 @@
       "The performance of a classifier is rigorously evaluated using a confusion matrix and derived metrics such as accuracy, precision, recall, and the F1-score, which provide a nuanced view of its strengths and weaknesses across different classes."
     ],
     "image": "https://i.pinimg.com/1200x/dd/34/f2/dd34f2caf11d4e4f235559eba14bf832.jpg",
-    "summary": "A predictive modeling task where observations are categorized into discrete classes based on learned patterns from labeled data."
+    "summary": "A predictive modeling task where observations are categorized into discrete classes based on learned patterns from labeled data.",
+    "aurthor": "Aryan Bokde",
+    "date": "01 Sept 2024"
   }
 ]
