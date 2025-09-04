@@ -11,7 +11,7 @@
     ],
     "image": "https://i.pinimg.com/1200x/dd/34/f2/dd34f2caf11d4e4f235559eba14bf832.jpg",
     "summary": "The initial process of analyzing data sets to summarize their main characteristics and uncover underlying patterns, often using visual methods.",
-    "aurthor": "Bhuvnesh Verma",
+    "author": "Bhuvnesh Verma",
     "date": "03 Sept 2024"
   },
   {
@@ -27,7 +27,7 @@
     ],
     "image": "https://i.pinimg.com/1200x/dd/34/f2/dd34f2caf11d4e4f235559eba14bf832.jpg",
     "summary": "A foundational statistical method for modeling the linear relationship between a dependent variable and one or more independent variables.",
-    "aurthor": "Abhay Mishra",
+    "author": "Abhay Mishra",
     "date": "28 Aug 2024"
   },
   {
@@ -42,7 +42,7 @@
     ],
     "image": "https://i.pinimg.com/1200x/dd/34/f2/dd34f2caf11d4e4f235559eba14bf832.jpg",
     "summary": "A predictive modeling task where observations are categorized into discrete classes based on learned patterns from labeled data.",
-    "aurthor": "Aryan Bokde",
+    "author": "Aryan Bokde",
     "date": "01 Sept 2024"
   }
 ]
