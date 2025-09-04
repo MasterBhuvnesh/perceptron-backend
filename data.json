@@ -3,60 +3,70 @@
     "id": "1",
     "title": "EDA",
     "objective": "To perform exploratory data analysis by summarizing the main characteristics of datasets and visualizing patterns, often using statistical graphics and other data visualization methods.",
-    "tools": ["Python", "Pandas", "Matplotlib"]
+    "tools": ["Python", "Pandas", "Matplotlib"],
+    "status": "completed"
   },
   {
     "id": "2",
     "title": "Linear Regression",
     "objective": "To model and analyze the relationship between a scalar dependent variable and one or more independent variables, enabling prediction and inference on continuous outcomes.",
-    "tools": ["Python", "Scikit-learn", "Statsmodels", "NumPy"]
+    "tools": ["Python", "Scikit-learn", "Statsmodels", "NumPy"],
+    "status": "completed"
   },
   {
     "id": "3",
     "title": "Classification",
     "objective": "To build predictive models that assign new observations to discrete categories or class labels based on input features.",
-    "tools": ["Scikit-learn", "XGBoost", "PyTorch", "TensorFlow"]
+    "tools": ["Scikit-learn", "XGBoost", "PyTorch", "TensorFlow"],
+    "status": "completed"
   },
   {
     "id": "4",
     "title": "Clustering",
     "objective": "To discover inherent groupings or patterns within unlabeled data by grouping similar data points together based on their features.",
-    "tools": ["Scikit-learn", "Keras", "SciPy"]
+    "tools": ["Scikit-learn", "Keras", "SciPy"],
+    "status": "inprocess"
   },
   {
     "id": "5",
     "title": "NLP",
     "objective": "To enable machines to process, understand, and generate human language for tasks like translation, sentiment analysis, and text summarization.",
-    "tools": ["NLTK", "spaCy", "Hugging Face Transformers", "Gensim"]
+    "tools": ["NLTK", "spaCy", "Hugging Face Transformers", "Gensim"],
+    "status": "inprocess"
   },
   {
     "id": "6",
     "title": "Time Series Analysis",
     "objective": "To analyze time-based data to extract meaningful statistics, identify trends and seasonality, and forecast future values.",
-    "tools": ["Pandas", "Statsmodels", "Prophet", "ARIMA"]
+    "tools": ["Pandas", "Statsmodels", "Prophet", "ARIMA"],
+    "status": "inprocess"
   },
   {
     "id": "7",
     "title": "Dimensionality Reduction",
     "objective": "To reduce the number of random variables under consideration by obtaining a set of principal variables, simplifying models and aiding visualization.",
-    "tools": ["Scikit-learn", "PCA", "t-SNE", "UMAP"]
+    "tools": ["Scikit-learn", "PCA", "t-SNE", "UMAP"],
+    "status": "inprocess"
   },
   {
     "id": "8",
     "title": "Data Wrangling",
     "objective": "To clean, structure, and enrich raw data into a desired format for effective analysis and decision-making.",
-    "tools": ["Python", "Pandas", "OpenRefine", "SQL"]
+    "tools": ["Python", "Pandas", "OpenRefine", "SQL"],
+    "status": "inprocess"
   },
   {
     "id": "9",
     "title": "Neural Networks",
     "objective": "To design computing systems that learn to perform tasks by considering examples, typically without being programmed with task-specific rules, for recognizing complex patterns.",
-    "tools": ["TensorFlow", "Keras", "PyTorch", "CUDA"]
+    "tools": ["TensorFlow", "Keras", "PyTorch", "CUDA"],
+    "status": "inprocess"
   },
   {
     "id": "10",
     "title": "Model Deployment",
     "objective": "To integrate a trained machine learning model into an existing production environment to make practical, data-driven decisions automatically.",
-    "tools": ["Flask", "FastAPI", "Docker", "AWS SageMaker"]
+    "tools": ["Flask", "FastAPI", "Docker", "AWS SageMaker"],
+    "status": "inprocess"
   }
 ]
