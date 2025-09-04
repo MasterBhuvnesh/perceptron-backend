@@ -3,7 +3,12 @@
     "id": "1",
     "title": "EDA",
     "description": "EDA is the initial step in data analysis, using visual and statistical methods to explore data, identify patterns, and spot anomalies before modeling.",
-    "theory": "The theoretical foundation of EDA was formally established by statistician John Tukey in the 1970s, who emphasized the importance of using graphical techniques to understand data beyond formal hypothesis testing. EDA is built on several key principles: a focus on visual representation to see patterns that summary statistics might miss; resistance, which prioritizes methods that are not overly influenced by outliers; and transparency, ensuring the data's story is clear. It involves two main types of analysis: univariate analysis, which examines the distribution, central tendency, and spread of a single variable (using tools like histograms, box plots, and summary statistics), and multivariate analysis, which explores the relationships and interactions between two or more variables (using scatter plots, correlation matrices, and pair plots). The ultimate goal is to uncover the underlying structure of the data, identify important variables, detect outliers and anomalies, test underlying assumptions for future modeling, and inform the selection of appropriate analytical techniques.",
+    "theory": [
+      "The theoretical foundation of EDA was formally established by statistician John Tukey in the 1970s, who emphasized the importance of using graphical techniques to understand data beyond formal hypothesis testing.",
+      "EDA is built on several key principles: a focus on visual representation to see patterns that summary statistics might miss; resistance, which prioritizes methods that are not overly influenced by outliers; and transparency, ensuring the data's story is clear.",
+      "It involves two main types of analysis: univariate analysis, which examines the distribution, central tendency, and spread of a single variable (using tools like histograms, box plots, and summary statistics), and multivariate analysis, which explores the relationships and interactions between two or more variables (using scatter plots, correlation matrices, and pair plots).",
+      "The ultimate goal is to uncover the underlying structure of the data, identify important variables, detect outliers and anomalies, test underlying assumptions for future modeling, and inform the selection of appropriate analytical techniques."
+    ],
     "image": "https://i.pinimg.com/1200x/dd/34/f2/dd34f2caf11d4e4f235559eba14bf832.jpg",
     "summary": "The initial process of analyzing data sets to summarize their main characteristics and uncover underlying patterns, often using visual methods."
   },
